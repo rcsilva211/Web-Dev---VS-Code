@@ -1,8 +1,7 @@
 #title {
     background-color: #ff4c68;
     color: white;
-    height: 850px;
-    overflow: hidden;
+    height: auto;
 }
 
 html,
@@ -85,13 +84,24 @@ h3 {
 /* Title Image */
 
 .title-image {
-    width: 60%;
+    width: 50%;
     transform: rotate(20deg);
+    position: absolute;
+}
+
+@media only screen and (max-width: 990px) {
+    .title-image {
+        width: 40%;
+        padding-left: 50px;
+        position: relative;
+        transform: rotate(0deg);    }
 }
 
 /*Features*/
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 #features i {
@@ -123,6 +133,7 @@ h3 {
     text-align: center;
     background-color: #ef8172;
     color: white;
+    position: relative;
 }
 
 .testimonial-image {
