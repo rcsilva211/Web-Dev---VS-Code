@@ -30,7 +30,19 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
+h3{
+    font-size: 1.5rem;
+    color: #1d2325;
+    font-weight: bold;
+    padding-top: 1.2rem;
 }
 
 .btn{
@@ -94,12 +106,7 @@ h1 {
     scale: 110%;
 }
 
-#features h3{
-    font-size: 1.5rem;
-    color: #1d2325;
-    font-weight: bold;
-    padding-top: 1.2rem;
-}
+
 
 #features p{
     color: #8f8f8f;
@@ -113,17 +120,9 @@ h1 {
 /*Testimonial Section*/
 
 #testimonials{
-    
     text-align: center;
     background-color: #ef8172;
     color: white;
-}
-
-#testimonials h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .testimonial-image{
@@ -146,4 +145,10 @@ h1 {
 #press img{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+
+/*Pricing*/
+#pricing {
+padding: 3% 0;
 }
